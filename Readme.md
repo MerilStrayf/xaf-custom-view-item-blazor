@@ -14,7 +14,7 @@ This example shows how to add a custom component to a Detail View. We add a butt
 
 ## Implementation Details
 
-1. In the ASP.NET Core Blazor Module project, create a new [Razor component](https://docs.microsoft.com/en-us/aspnet/core/blazor/components/) and name it **ButtonRenderer**. In this component, configure the [DxButton](https://docs.devexpress.com/Blazor/DevExpress.Blazor.DxButton) component, add the **Create** method that creates @Microsoft.AspNetCore.Components.RenderFragment, and handle the **Click** event. 
+1. In the ASP.NET Core Blazor Module project, create a new [Razor component](https://docs.microsoft.com/en-us/aspnet/core/blazor/components/) and name it **ButtonRenderer**. In this component, configure the [DxButton](https://docs.devexpress.com/Blazor/DevExpress.Blazor.DxButton) component, add the **Create** method that creates [RenderFragment](https://docs.microsoft.com/en-us/dotnet/api/microsoft.aspnetcore.components.renderfragment), and handle the **Click** event. 
 
    **Razor Component** - [MySolution.Module.Blazor/Editors/ButtonRenderer.razor](./CS/MySolution.Module.Blazor/Editors/ButtonRenderer.razor)
  
